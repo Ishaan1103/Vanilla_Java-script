@@ -1,0 +1,10 @@
+// const newtodo =document.createElement("li");
+// // const newtodotext =document.createTextNode("Help");
+// const todolist = document.querySelector(".todo-list");
+// // newtodo.append(newtodotext);
+// console.log(newtodo);
+const newtodo =document.createElement("li");
+// const newtodotext =document.createTextNode("Help");
+newtodo.textContent="help";
+const todolist = document.querySelector(".todo-list");
+todolist.after(newtodo);

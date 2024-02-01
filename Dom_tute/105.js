@@ -7,3 +7,5 @@
 // mainhead.textContent="hello";
 // console.log(mainhead.textContent);
 
+// const navItem = document.querySelectorAll(".nav-item");
+// console.log(navItem);
